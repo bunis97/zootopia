@@ -42,6 +42,10 @@
     border: none;
     cursor: pointer;
   }
+
+  .btn-toggle > img {
+    width: 50px;
+  }
   
   .container {
     position: relative;
@@ -99,6 +103,10 @@
     margin-right: 10px;
   }
   
+  #main_header .sns > li > a > img {
+    width: 50px;
+  }
+
   #main_header .btn-toggle {
     position: absolute;
     right: 20px; top: 20px;
@@ -139,6 +147,10 @@
     position: absolute;
     right: 20px; top: 20px;
     cursor: pointer;
+  }
+
+  #gnb .btn-close > img {
+    width: 40px;
   }
   
   #gnb > ul {
