@@ -25,7 +25,7 @@ $(function(){
       $('#gnb ul li').removeClass('active');
       $('#gnb ul li').eq(2).addClass('active');
       $('.header_box').css('display', 'none');
-      $('title').text('시놉시스 | 극장판 귀멸의 칼날 : 무한열차편');
+      $('title').text('시놉시스 | 주토피아');
     } else {
       $('#synop_popup').removeClass('show');
     }  
