@@ -1,0 +1,111 @@
+/* sub.css */
+
+/* 배경 초기화 */
+body {
+    background: #000;
+  }
+  
+  #video #main_header {
+    position: relative;
+    width: 100%;
+    background: #000;
+    height: 100px;
+  }
+  
+  #video .header_box {
+    display: none;
+  }
+  
+  #main {
+    position: relative;
+  }
+  
+  #video #main iframe {
+    width: 100%;
+    /* header, footer 공간을 제외한 영상 영역 */
+    height: calc(100vh - 200px);
+    background: #abc;
+    display: block;
+  }
+  
+  #main_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background: #000;
+    /* border: 1px solid yellow; */
+  }
+  
+  #main_footer .sns { 
+    margin-top: 20px;
+  }
+
+  #main_footer .sns li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #main_footer .sns li > a > img {
+    width: 30px;
+  }
+
+  #main_footer > p {
+    padding-top: 10px;
+    font-size: 10px;
+  }
+  
+  /* 갤러리 */
+  #gallery .header_box {
+    display: none;
+  }
+  
+  #gallery #main_header {
+    position: relative;
+    width: 100%;
+    background: #000;
+    height: 100px;
+  }
+  
+  #gallery .header_box {
+    display: none;
+  }
+  
+  #gallery #main figure {
+    max-width: 1000px;
+    height: 400px;
+    /*outline: 2px solid red;*/
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  #gallery #main figure img {
+    width: 100%;
+  }
+  
+  #gallery #main ul {
+    /*outline:  2px solid green;*/
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  #gallery #main ul li {
+    width: calc(100%/6);
+    float: left;
+    /*outline: 2px solid red;*/
+    border: 1px solid #707070;
+    overflow: hidden;
+  }
+  
+  #gallery #main ul li:hover {
+    border: 4px solid #03B4AB;
+  }
+  
+  #gallery #main ul li a img {
+    width: 100%;
+    display: block;
+  }
